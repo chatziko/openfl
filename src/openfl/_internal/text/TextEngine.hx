@@ -708,7 +708,7 @@ class TextEngine {
 			var currentFormat = textField.__textFormat;
 			var ascent, descent, leading, heightValue;
 			
-			#if js
+			#if (js && html5)
 			
 			// __context.font = getFont (currentFormat);
 			
